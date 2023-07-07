@@ -34,6 +34,8 @@
 
         h_agent = hough_agent::type_id::create("h_agent",this);
         b_agent = bram_agent::type_id::create("b_agent",this);
+        cfg = hough_config::type_id::create("cfg",this);
+        
     endfunction : build_phase    
     
     

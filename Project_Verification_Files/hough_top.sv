@@ -29,7 +29,7 @@ module hough_top
     // Run tests and set interfaces
     inital begin
        uvm_config_db#(virtual hough_if)::set(null, "uvm_test_top.env", "hough_if", h_vif);  // What does uvm_test_top.env stand for?
-       uvm_config_db#(virtual bram_if)::set(null, "uvm_test_top.env", "bram_if", b_vif);
+       uvm_config_db#(virtual bram_if)::set(null, "uvm_test_top.env", "bram_if", b_vif);    // Da li ako stavim this ne moram da stavim putanju?
        run_test();      // To be created by Momir
     end 
 
