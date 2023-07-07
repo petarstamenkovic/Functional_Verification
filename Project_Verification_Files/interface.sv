@@ -3,9 +3,10 @@
 
 interface hough_if(input clk,input rst);
     
-    logic [8 : 0] width_i;
-    logic [8 : 0] height_i;
+    logic [9 : 0] width_i;
+    logic [9 : 0] height_i;
     logic [7 : 0] threshold;
+    logic [9 : 0] rho_i;
     logic         start; 
     logic         ready; 
 
