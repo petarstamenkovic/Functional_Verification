@@ -11,7 +11,9 @@ class test_hoguh_simple extends test_hough_base;
 
     function void build_phase(uvm_phase phase);
         super.build_phase(phase);
-        
+        /*
+        treba dodati sekvence 
+        */
     endfunction : build_phase
 
     task run_phase(uvm_phase phase);
